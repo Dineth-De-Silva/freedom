@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926454240621",
+    "project_id": "freedom-13f95",
+    "storage_bucket": "freedom-13f95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926454240621:android:2ebfd1a2c9a8131ce2f664",
+        "android_client_info": {
+          "package_name": "com.example.freedom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926454240621-8it9m6a4d7bl8jd8qe1fb5kineprqhfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXCgm3jeODLg05YebzA9Kc02RXY0HtIGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926454240621-8it9m6a4d7bl8jd8qe1fb5kineprqhfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
