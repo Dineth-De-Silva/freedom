@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-// import 'package:freedom/screens/loginorsignup/loginorsignup_screen.dart';
+import 'package:freedom/screens/loginorsignup/loginorsignup_screen.dart';
 
 class Welcome extends StatelessWidget {
   @override
@@ -34,12 +34,12 @@ class Welcome extends StatelessWidget {
               child: FittedBox(
                 child: TextButton(
                     onPressed: () {
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(
-                      //     builder: (context) => Loginorsignup(),
-                      //   ),
-                      // );
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => Loginorsignup(),
+                        ),
+                      );
                     },
                     child: Padding(
                       padding: const EdgeInsets.all(10.0),
