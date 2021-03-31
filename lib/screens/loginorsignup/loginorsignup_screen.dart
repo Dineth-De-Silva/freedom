@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:freedom/constants.dart';
-// import 'package:freedom/screens/login/login_screen.dart';
+import 'package:freedom/screens/login/login_screen.dart';
 
 class Loginorsignup extends StatelessWidget {
   @override
@@ -33,12 +33,12 @@ class Loginorsignup extends StatelessWidget {
               color: kPrimaryColor,
               minWidth: size.width / 2,
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) => Login(),
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Login(),
+                  ),
+                );
               },
               child: Text(
                 "Log In",
